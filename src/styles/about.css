@@ -1,0 +1,51 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.contact-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(92, 100, 92, 0.3);
+    border-radius: 5px;
+}
+
+.contact-button {
+    margin: 30px;
+    cursor: pointer;
+    border: none;
+    width: 90px;
+    height: 90px;
+}
+
+.fb-button {
+    background-image: url('../images/fb.png');
+    background-size: cover;
+    background-color: transparent;
+
+}
+
+.ig-button {
+    background-image: url('../images/ig.png');
+    background-size: cover;
+    background-color: transparent;
+}
+
+.twitter-button {
+    background-image: url('../images/twitter.png');
+    background-size: cover;
+    background-color: transparent;
+}
+
+.contact-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}

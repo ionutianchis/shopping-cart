@@ -1,0 +1,26 @@
+@font-face {
+    font-family: attic;
+    src: url('../fonts/Attic.ttf');
+}
+
+@font-face {
+    font-family: payzant;
+    src: url('../fonts/Payzant.ttf');
+}
+
+html {
+    font-family: payzant;
+    font-size: 25px;
+    background-color: #181a1b;
+    color: white;
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    height: 100vh;
+}
