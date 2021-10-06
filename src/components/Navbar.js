@@ -52,7 +52,7 @@ const Navbar = ({ cart, setCart, swords }) => {
             <h1 onClick={() => history.push('/')}>Blackbeard's forge</h1>
             
             <ul className='nav-list'>
-                <Link to='/' className='nav-link styled-link'>
+                <Link to='/home' className='nav-link styled-link'>
                     <li>Home</li>
                 </Link>
                     
