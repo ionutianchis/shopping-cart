@@ -65,7 +65,7 @@ const App = () => {
         <Navbar cart={cart} setCart={setCart} swords={swords}/>
         
         <Switch>
-          <Route exact path='/home' component={Home}/>
+          <Route exact path='/' component={Home}/>
           <Route exact path='/shop' render={() => <Shop swords={swords} cart={cart} setCart={setCart} />}/>
           <Route exact path='/contact' component={About}/>
         </Switch>
