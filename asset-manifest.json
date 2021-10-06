@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.1911c471.chunk.css",
+    "main.js": "/shopping-cart/static/js/main.2baf213a.chunk.js",
+    "main.js.map": "/shopping-cart/static/js/main.2baf213a.chunk.js.map",
+    "runtime-main.js": "/shopping-cart/static/js/runtime-main.c3c4442c.js",
+    "runtime-main.js.map": "/shopping-cart/static/js/runtime-main.c3c4442c.js.map",
+    "static/js/2.3873d950.chunk.js": "/shopping-cart/static/js/2.3873d950.chunk.js",
+    "static/js/2.3873d950.chunk.js.map": "/shopping-cart/static/js/2.3873d950.chunk.js.map",
+    "index.html": "/shopping-cart/index.html",
+    "static/css/main.1911c471.chunk.css.map": "/shopping-cart/static/css/main.1911c471.chunk.css.map",
+    "static/js/2.3873d950.chunk.js.LICENSE.txt": "/shopping-cart/static/js/2.3873d950.chunk.js.LICENSE.txt",
+    "static/media/2.jpg": "/shopping-cart/static/media/2.807e28f6.jpg",
+    "static/media/App.css": "/shopping-cart/static/media/Payzant.6c322aee.ttf",
+    "static/media/hamingja.jpg": "/shopping-cart/static/media/hamingja.e2c55930.jpg",
+    "static/media/home.css": "/shopping-cart/static/media/homeimg.4a00581e.jpg",
+    "static/media/ice.jpg": "/shopping-cart/static/media/ice.3e0804f3.jpg",
+    "static/media/longclaw.jpg": "/shopping-cart/static/media/longclaw.756028c2.jpg",
+    "static/media/longsword.jpg": "/shopping-cart/static/media/longsword.b4eabec3.jpg",
+    "static/media/oathkeeper.jpg": "/shopping-cart/static/media/oathkeeper.543093c3.jpg",
+    "static/media/silver.jpg": "/shopping-cart/static/media/silver.67ff6869.jpg",
+    "static/media/steel.jpg": "/shopping-cart/static/media/steel.8c1fdb30.jpg",
+    "static/media/templar.jpg": "/shopping-cart/static/media/templar.c172e4b3.jpg",
+    "static/media/viking.jpg": "/shopping-cart/static/media/viking.374c56b2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c3c4442c.js",
+    "static/js/2.3873d950.chunk.js",
+    "static/css/main.1911c471.chunk.css",
+    "static/js/main.2baf213a.chunk.js"
+  ]
+}
