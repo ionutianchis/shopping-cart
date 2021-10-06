@@ -46,13 +46,13 @@ const Navbar = ({ cart, setCart, swords }) => {
             setCart([...cart.filter(x => x.name !== item.name)])
         }
     }
-    console.log(swords)
+
     return (
         <nav>
             <h1 onClick={() => history.push('/')}>Blackbeard's forge</h1>
             
             <ul className='nav-list'>
-                <Link to='/home' className='nav-link styled-link'>
+                <Link to='/' className='nav-link styled-link'>
                     <li>Home</li>
                 </Link>
                     
