@@ -65,9 +65,9 @@ const App = () => {
         <Navbar cart={cart} setCart={setCart} swords={swords}/>
         
         <Switch>
-          <Route exact path='/' component={Home}/>
-          <Route exact path='/shop' render={() => <Shop swords={swords} cart={cart} setCart={setCart} />}/>
-          <Route exact path='/contact' component={Contact}/>
+          <Route exact path='/shopping-cart/' component={Home}/>
+          <Route exact path='/shopping-cart/shop' render={() => <Shop swords={swords} cart={cart} setCart={setCart} />}/>
+          <Route exact path='/shopping-cart/contact' component={Contact}/>
         </Switch>
         
         </BrowserRouter>

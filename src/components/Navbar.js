@@ -49,18 +49,18 @@ const Navbar = ({ cart, setCart, swords }) => {
 
     return (
         <nav>
-            <h1 onClick={() => history.push('/')}>Blackbeard's forge</h1>
+            <h1 onClick={() => history.push('/shopping-cart/')}>Blackbeard's forge</h1>
             
             <ul className='nav-list'>
-                <Link to='/' className='nav-link styled-link'>
+                <Link to='/shopping-cart/' className='nav-link styled-link'>
                     <li>Home</li>
                 </Link>
                     
-                <Link to='/shop' className='nav-link styled-link'>
+                <Link to='/shopping-cart/shop' className='nav-link styled-link'>
                     <li>Shop</li>
                 </Link>
                     
-                <Link to='/contact' className='nav-link styled-link'>
+                <Link to='/shopping-cart/contact' className='nav-link styled-link'>
                     <li>Contact</li>
                 </Link>
 
