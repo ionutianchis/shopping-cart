@@ -13,7 +13,7 @@ const Home = () => {
 
                 <p>Get your own hand-crafted sword before some pesky traveler buys all our stock (again).</p>
             
-                <button type='button' className='order-button' onClick={() => history.push("/shop")}>Browse our wares</button>
+                <button type='button' className='order-button' onClick={() => history.push("/shopping-cart/shop")}>Browse our wares</button>
             </div>
         </div>
     )
