@@ -3,7 +3,7 @@ import './styles/App.css'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import Shop from './components/Shop'
-import About from './components/About'
+import Contact from './components/Contact'
 import { BrowserRouter, Switch, Route} from 'react-router-dom'
 
 const App = () => {
@@ -65,9 +65,9 @@ const App = () => {
         <Navbar cart={cart} setCart={setCart} swords={swords}/>
         
         <Switch>
-          <Route exact path='/' component={Home}/>
-          <Route exact path='/shop' render={() => <Shop swords={swords} cart={cart} setCart={setCart} />}/>
-          <Route exact path='/contact' component={About}/>
+          <Route exact path='/shopping-cart/' component={Home}/>
+          <Route exact path='/shopping-cart/shop' render={() => <Shop swords={swords} cart={cart} setCart={setCart} />}/>
+          <Route exact path='/shopping-cart/contact' component={Contact}/>
         </Switch>
         
         </BrowserRouter>
