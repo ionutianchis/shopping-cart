@@ -60,7 +60,7 @@ const App = () => {
 
   return (
     <div className='container'>
-        <BrowserRouter>
+        <BrowserRouter basename={window.location.pathname || ''}>
         
         <Navbar cart={cart} setCart={setCart} swords={swords}/>
         
