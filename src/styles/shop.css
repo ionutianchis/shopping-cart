@@ -1,12 +1,16 @@
 .shop {
-    display: grid;
-    grid-template-columns: 800px 800px 800px;
-    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    justify-content: space-around;
 }
 
 .sword-card {
-    height: 800px;
-    width: 800px;
+    margin-bottom: 20px;
+    height: 500px;
+    width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,7 +18,7 @@
 }
 
 .sword-image {
-    height: 70%;
+    height: 270px;
     width: 100%;
     cursor: pointer;
 }

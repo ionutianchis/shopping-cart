@@ -1,16 +1,17 @@
 nav {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #59402d;
     align-items: center;
+    padding: 20px;
+    text-align: center;
 }
 
 nav h1 {
-    margin-left: 200px;
     font-family: attic;
-    font-size: 50px;
+    font-size: 2rem;
     cursor: pointer;
+    margin: 0;
 }
 
 .nav-list {
@@ -18,18 +19,20 @@ nav h1 {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 0;
+    margin: 0;
 }
 
 .nav-link {
     color: white;
     text-decoration: none;
-    margin-left: 70px;
+    margin-left: 10px;
 }
 
 .styled-link {
 	color: #fff !important;
 	text-decoration: none;
-	padding: 20px;
+	padding: 10px;
 	border-radius: 5px;
 	display: inline-block;
 	border: none;
@@ -49,26 +52,24 @@ nav h1 {
     color: wheat;
 }
 
+.shopping-div {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
 .shopping-div button {
     background: url('../images/basket.png') no-repeat center;
     background-size: cover;
     border: none;
     width: 35px;
     height: 35px;
-    margin-left: 50px;
-    margin-right: 350px;
     cursor: pointer;
 }
 
 .shopping-div button:hover{
     box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
     transform: translateY(-0.25em);
-}
-
-.shopping-div {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
 }
 
 .shopping-div p {

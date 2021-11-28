@@ -19,8 +19,38 @@ html {
 body {
     margin: 0;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .container {
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    background-color: #59402d;
+    margin-top: 30px;
+}
+
+.github-button {
+    width: 26px;
+    height: 25px;
+    background-image: url("../images/github-icon.svg");
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: transform .5s ease-in-out;
+}
+
+.github-button:hover {
+    transform: rotate(360deg);
 }

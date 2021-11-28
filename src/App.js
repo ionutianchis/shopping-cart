@@ -58,21 +58,41 @@ const App = () => {
 
   const [cart, setCart] = useState([])
 
+  const handleGit = () => {
+    window.open('https://github.com/Jonthejon10')
+  }
   return (
-    <div className='container'>
-        <BrowserRouter basename='/'>
-        
-        <Navbar cart={cart} setCart={setCart} swords={swords}/>
-        
-        <Switch>
-          <Route exact path='/shopping-cart/' component={Home}/>
-          <Route exact path='/shopping-cart/shop' render={() => <Shop swords={swords} cart={cart} setCart={setCart} />}/>
-          <Route exact path='/shopping-cart/contact' component={Contact}/>
-        </Switch>
-        
-        </BrowserRouter>
-    </div>
-  );
+		<div className='container'>
+			<BrowserRouter basename='/'>
+				<Navbar cart={cart} setCart={setCart} swords={swords} />
+
+				<Switch>
+					<Route exact path='/shopping-cart/' component={Home} />
+					<Route
+						exact
+						path='/shopping-cart/shop'
+						render={() => (
+							<Shop
+								swords={swords}
+								cart={cart}
+								setCart={setCart}
+							/>
+						)}
+					/>
+					<Route
+						exact
+						path='/shopping-cart/contact'
+						component={Contact}
+					/>
+				</Switch>
+			</BrowserRouter>
+
+			<footer>
+				<p>© Jonthejon10, 2021</p>
+				<button class='github-button' onClick={handleGit}></button>
+			</footer>
+		</div>
+  )
 }
 
 export default App;
